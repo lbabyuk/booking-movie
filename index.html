@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Booking</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <section class="pick-movie">
+                <label for="movie">Pick a movie:</label>
+                <select name="movie" id="movie">
+                    <option value="toyStory">Toy Story 4($8)</option>
+                    <option value="joker">Joker($12)</option>
+                    <option value="theLionKing">The Lion King($9)</option>
+                </select>
+            </section>
+            <section class="showcases">
+                <div class="seat not-selected"></div>
+                    <small>N/A</small>
+                <div class="selected seat"></div>
+                    <small>Selected</small>
+                <div class="occupied seat"></div>
+                    <small>Occupied</small>
+            </section>
+            <section class="screen"></section>
+            <section class="seats-container">
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat selected"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat selected"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat selected"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat selected"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                </div>
+               <div class="row">
+                    <div class="seat selected"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                </div>
+                <div class="row">
+                    <div class="seat selected"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat selected"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                </div>
+            </section>
+            <section class="footer">
+                <p class="text">Tou have selected <span>4</span> seats for a price of <span>$38</span></p>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
